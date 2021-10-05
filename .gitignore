@@ -1,3 +1,4 @@
 #so it wouldnt upload the entire node_modules folder
-[Nn]ode_modules/
+node_modules
+.env
 config.json
