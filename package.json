@@ -3,6 +3,34 @@
   "version": "1.0.0",
   "description": "��#\u0000 \u0000D\u0000i\u0000s\u0000c\u0000o\u0000r\u0000d\u0000-\u0000B\u0000o\u0000t\u0000-\u0000J\u0000S\u0000\r\u0000 \u0000",
   "main": "index.js",
+  "dependencies": {
+    "abort-controller": "^3.0.0",
+    "asynckit": "^0.4.0",
+    "combined-stream": "^1.0.8",
+    "callsites": "^3.1.0",
+    "discord-api-types": "^0.22.0",
+    "discord.js": "^13.1.0",
+    "dot-prop": "^6.0.1",
+    "event-target-shim": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "delayed-stream": "^1.0.0",
+    "lodash.isequal": "^4.5.0",
+    "form-data": "^4.0.0",
+    "is-obj": "^2.0.0",
+    "mime-db": "^1.50.0",
+    "node-fetch": "^2.6.5",
+    "mime-types": "^2.1.33",
+    "ow": "^0.27.0",
+    "tr46": "^0.0.3",
+    "ts-mixer": "^6.0.0",
+    "tslib": "^2.3.1",
+    "type-fest": "^1.4.0",
+    "vali-date": "^1.0.0",
+    "webidl-conversions": "^3.0.1",
+    "ws": "^7.5.5",
+    "whatwg-url": "^5.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,12 +43,5 @@
   "bugs": {
     "url": "https://github.com/XeonDigital/Discord-Bot-JS/issues"
   },
-  "homepage": "https://github.com/XeonDigital/Discord-Bot-JS#readme",
-  "dependencies": {
-    "@discordjs/builders": "^0.5.0",
-    "@discordjs/rest": "^0.1.0-canary.0",
-    "discord-api-types": "^0.22.0",
-    "discord.js": "^13.1.0",
-    "dotenv": "^10.0.0"
-  }
+  "homepage": "https://github.com/XeonDigital/Discord-Bot-JS#readme"
 }
