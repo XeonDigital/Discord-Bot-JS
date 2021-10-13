@@ -5,6 +5,6 @@ module.exports = {
         .setName('guide')
         .setDescription('Get the current guide for Discord.js'),
     async execute(interaction) {
-        return interaction.reply('Discord bot guide: https://discordjs.guide/');
+        return interaction.reply({ content: 'Discord bot guide: https://discordjs.guide/', ephemeral: true});
     },
 };
